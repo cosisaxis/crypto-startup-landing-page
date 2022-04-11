@@ -33,7 +33,8 @@ const clicker = () => setButtonClick(!buttonClick)
                 <button className ='btn'>Connect Wallet</button>
             </div>
             <div className='burger' onClick={clicker}>
-                <FaBars size={20} style ={{color: '#333' }}/>
+            {buttonClick ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}
+                
 
             </div>
         </div>
