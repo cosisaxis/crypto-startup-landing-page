@@ -46,6 +46,10 @@
         display: flex;
     }
 
+    .btn-nav{
+        align-items: center;
+    }
+
     .menu{
         position: absolute;
         flex-direction: column;
