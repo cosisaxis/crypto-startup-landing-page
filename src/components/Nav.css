@@ -1,0 +1,78 @@
+.head{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.head .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.color{
+    color: var(--main);
+}
+.menu{
+    display: flex;
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+.menu a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--main);
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+/* any screen under this length will display the burger */
+
+@media screen and (max-width: 1240px) {
+    .burger{
+        display: flex;
+    }
+
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #fff;
+        border-left: 1px solid #eee;
+    }
+
+    .menu.active{
+        right: 0;
+    }
+
+
+    .menu li{
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .menu a{
+        font-size: 1.2rem;
+    }
+    
+}
