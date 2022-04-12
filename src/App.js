@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
 import SignUp from "./components/SignUp";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <Features />
       <SignUp />
+      <FooterSection />
 
     </>
   );

@@ -1,0 +1,59 @@
+.foot{
+    background-color: var(--bg);
+    padding: 5rem 0;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.foot .container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.foot .col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foot .bar{
+    width: 30px;
+    border-bottom: 4px solid var(--main);
+    margin: 1rem 0;
+}
+
+.foot a{
+    font-size: 1rem;
+}
+
+.foot .icon{
+    color: black;
+    margin-right: 4px;
+}
+
+
+.foot h5{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 940px) {
+    .foot .container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .foot .col-1 {
+        display: none;
+    }
+
+    
+    
+} 
+     
+
+
+
+
+
