@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav/>
       <HeroSection />
       <Features />
+      <SignUp />
 
     </>
   );

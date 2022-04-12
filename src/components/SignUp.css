@@ -1,0 +1,31 @@
+.sign-up-section .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.sign-up-section .first-half{
+    text-align: center;
+}
+
+.sign-up-section img{
+   max-width: 60%;
+}
+
+
+.sign-up-section img:hover{
+    transform:scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.sign-up-section .second-half p{
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 940px){
+    .sign-up-section .container{
+        grid-template-columns: 1fr;
+    }
+}
+
