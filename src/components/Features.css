@@ -8,8 +8,6 @@
 .features-section{
     width: 100%;
     padding: 8rem 0;
-    background-color: aliceblue;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
 }
 
 .features-section .container{

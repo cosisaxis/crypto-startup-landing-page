@@ -34,7 +34,7 @@ const accountChangeHandler =(newAccount) =>{
   return (
     <div className='head'>
         <div className='container'>
-            <h1>COINEX</h1>
+            <h1 className=''>COINEX</h1>
             <ul className={buttonClick? 'menu active': 'menu'}>
                 <li>
                     <a href='/'>Home</a>
@@ -52,7 +52,6 @@ const accountChangeHandler =(newAccount) =>{
             
             <div className='btn-nav'>
                 <button className ='btn' onClick={walletConnect}>{connectText}</button>
-                {/* <h3>{defaultAcc}</h3> */}
             </div>
             <div className='burger' onClick={clicker}>
             {buttonClick ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}

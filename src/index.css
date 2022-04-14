@@ -47,17 +47,24 @@ p {
 
 .btn {
   padding: 15px;
-  border: 1px solid var(--main);
-  background-color: var(--main);
+  border: 1px solid #1E5128;
+  background-color: #1E5128;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
 }
+.btn-2{
+  background-color: #4E9F3D;
+  margin-left: 10px;
+}
+.btn-2:hover {
+  background-color: red;
+}
 
-btn:hover {
-  background-color: var(--hover);
+.btn:hover {
+  background-color: #4E9F3D;
 }
 
 body {
@@ -65,6 +72,7 @@ body {
   font-family: "Archivo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #191A19;
 }
 
 code {

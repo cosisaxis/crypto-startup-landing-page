@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  background-color: #191A19;
+  color: #D8E9A8;
 }
 
 .hero .first-half{
@@ -15,6 +17,8 @@
 }
 .hero .input-container{
     padding: 1rem 0;
+    color: #D8E9A8;
+    accent-color: #ddd;
 }
 
 .hero .second-half{
