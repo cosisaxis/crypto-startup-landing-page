@@ -2,6 +2,7 @@ import React from "react";
 import './HeroSection.css'
 import eth from '../assets/eth.gif'
 
+
 const HeroSection = () => {
   return (
     <div className="hero">

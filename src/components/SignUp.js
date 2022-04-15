@@ -14,7 +14,7 @@ const SignUp = () => {
         {/* second half */}
         <div className="second-half">
           <h2>Earn with crypto</h2>
-          <p>Ern up to to x amount of rewards with this digital asset.</p>
+          <p>Earn up to to x amount of rewards with this digital asset.</p>
 
           <div className="input-container">
             <input type="email" placeholder="Enter email" />
