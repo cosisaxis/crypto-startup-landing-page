@@ -7,7 +7,7 @@
 }
 .features-section{
     width: 100%;
-    padding: 4rem 0;
+    padding: 8rem 0;
 }
 
 .features-section .container{
@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 478px) {
     .features-section .container .second-half .card {
-        width: 100%;
+        width: 70%;
     }
 }
 
