@@ -1,7 +1,7 @@
 .foot{
-    background-color: var(--bg);
-    padding: 5rem 0;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+    background-color: #191A19;
+    color: #D8E9A8;
+    padding: 3rem 0;
 }
 
 .foot .container{
@@ -19,16 +19,17 @@
 
 .foot .bar{
     width: 30px;
-    border-bottom: 4px solid var(--main);
+    border-bottom: 4px solid #1E5128;
     margin: 1rem 0;
 }
 
 .foot a{
     font-size: 1rem;
+    color: #D8E9A8;
 }
 
 .foot .icon{
-    color: black;
+    color: #D8E9A8;
     margin-right: 4px;
 }
 
