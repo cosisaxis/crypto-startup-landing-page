@@ -3,15 +3,27 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .sign-up-section .first-half{
     text-align: center;
+   margin-top: 0;
 }
 
 .sign-up-section img{
    max-width: 60%;
+   margin-bottom: 20px;
+}
+.sign-up-section{
+    color: #D8E9A8;
+}
+.sign-up-section .second-half input{
+    background-color: #D8E9A8;
+    border: 1px solid #D8E9A8;
+    outline: none;
+    color: #1E5128;
+    font-weight: bolder;
 }
 
 
@@ -21,6 +33,7 @@
 }
 .sign-up-section .second-half p{
     margin: 2rem 0;
+
 }
 
 @media screen and (max-width: 940px){

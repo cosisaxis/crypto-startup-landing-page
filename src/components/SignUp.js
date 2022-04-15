@@ -18,7 +18,7 @@ const SignUp = () => {
 
           <div className="input-container">
             <input type="email" placeholder="Enter email" />
-            <button className="btn">Join now</button>
+            <button className="btn" type="submit">Join now</button>
           </div>
         </div>
       </div>
