@@ -34,7 +34,7 @@ const accountChangeHandler =(newAccount) =>{
   return (
     <div className='head'>
         <div className='container'>
-            <h1 className=''>COINEX</h1>
+            <h1 className='header-coin'>COINEX</h1>
             <ul className={buttonClick? 'menu active': 'menu'}>
                 <li>
                     <a href='/'>Home</a>
@@ -48,6 +48,7 @@ const accountChangeHandler =(newAccount) =>{
                 <li>
                     <a href='/'>Contact</a>
                 </li>
+                <li></li>
             </ul>
             
             <div className='btn-nav'>

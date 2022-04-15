@@ -49,6 +49,10 @@
         display: flex;
     }
 
+    .header-coin{
+        display: none;
+    }
+
     .btn-nav{
         align-items: center;
     }
